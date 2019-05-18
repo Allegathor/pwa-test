@@ -37,8 +37,8 @@
 	<link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
 	<link rel="manifest" href="./manifest.json">
 	<meta name="theme-color" content="#546e7a">
-
-	<link rel="dns-prefetch" href="//tracks.gamemusicplayer.io">
+	<!-- Ionic's root component and where the app will load -->
+	<!-- link rel="dns-prefetch" href="//tracks.gamemusicplayer.io" -->
 
 	<noscript>Please enable JavaScript 😭</noscript>
 
@@ -73,7 +73,7 @@
 		});
 	</script>
 
-	<link href="./build/main.css" rel="stylesheet">
+	<link href="/build/main.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
 </head>
 
@@ -83,13 +83,13 @@
 	<ion-app></ion-app>
 
 	<!-- The polyfills js is generated during the build process -->
-	<script src="build/polyfills.js"></script>
+	<script src="/build/polyfills.js"></script>
 
 	<!-- all code from node_modules directory is here -->
-	<script src="build/vendor.js"></script>
+	<script src="/build/vendor.js"></script>
 
 	<!-- The bundle js is generated during the build process -->
-	<script src="build/main.js"></script>
+	<script src="/build/main.js"></script>
 
 	<script>
 		(function (i, s, o, g, r, a, m) {
